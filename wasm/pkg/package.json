@@ -1,0 +1,16 @@
+{
+  "name": "thagore-wasm",
+  "type": "module",
+  "version": "0.1.0",
+  "license": "MIT",
+  "files": [
+    "thagore_wasm_bg.wasm",
+    "thagore_wasm.js",
+    "thagore_wasm.d.ts"
+  ],
+  "main": "thagore_wasm.js",
+  "types": "thagore_wasm.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
